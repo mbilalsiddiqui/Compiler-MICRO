@@ -1,0 +1,21 @@
+PROGRAM test
+BEGIN
+
+	INT i, j,k;
+	FLOAT newapprox,approx,num;
+
+	FUNCTION VOID main()
+	BEGIN
+	
+		num := 7.0;	
+		j := 1;
+		approx := num;	
+	
+    FOR (i := 100; i != 0; i := i-j)
+			newapprox := 0.5*(approx + num/approx);
+			approx := newapprox;
+		ENDFOR
+
+		WRITE(approx);
+	END
+END

@@ -1,0 +1,26 @@
+PROGRAM sqrt
+BEGIN
+
+	STRING dummy := "abcde";  --This is dummy to satisfy the grammar
+
+     INT i, j, k;
+     
+	FUNCTION VOID main()
+	BEGIN
+		i := 0;
+		j := 0;
+		k := 0;
+		result := 0;
+		
+		FOR (result := 0; i < 100; )
+		     i := i + 1;
+		     FOR (i := i + 1; j < 100; )
+		          FOR (j := j + 1; k < 100; result := result + 1)
+		               k := k + 1;
+		          ENDFOR
+		     ENDFOR
+		ENDFOR
+
+		WRITE (result);
+	END
+END

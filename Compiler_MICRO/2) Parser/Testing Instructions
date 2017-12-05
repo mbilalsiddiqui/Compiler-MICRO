@@ -1,0 +1,5 @@
+If Java and ANTLR are used, the following command will be run from the root of your project directory
+
+    ·         $ java -cp lib/antlr.jar:classes/ Micro <path to test cases>/test.micro
+
+    ·         Accepted

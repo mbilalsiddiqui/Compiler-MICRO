@@ -1,0 +1,21 @@
+PROGRAM loop1
+BEGIN
+	FUNCTION VOID main ()
+	BEGIN
+		INT a, b, c, d, e,f;
+		b := 2;
+		FOR (a:=0; a<100; a:=a+1)
+				c:=b+5;
+				d:=a*b+5;
+				IF (a<50)
+				    e:=c+5;
+				ELSE
+				    e:=c-5;
+                               
+			  ENDIF
+		ENDFOR
+		WRITE (c);
+		WRITE (d);
+		WRITE (e);
+	END
+END

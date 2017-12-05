@@ -1,0 +1,29 @@
+PROGRAM p
+BEGIN
+
+	INT a,b,k,g,p,u;
+
+	FUNCTION VOID main()
+	BEGIN
+
+		a := 0;
+		b := 1;
+    FOR (b := 1; a <= 120; b := b+1)
+			a := a + 20;
+			IF (b = 1)
+				g := 1*a;
+				WRITE (g);
+			ELIF (b = 2)
+				p := 2*a;
+				WRITE (p);
+			ELIF (b = 3)
+				k := 3*a;
+				WRITE (k);
+			ELIF (b = 4)
+				u := 4*a;
+				WRITE (u);
+			ENDIF
+		ENDFOR
+
+	END
+END

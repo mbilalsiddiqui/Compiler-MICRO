@@ -1,0 +1,16 @@
+PROGRAM loop1
+BEGIN
+	FUNCTION VOID main ()
+	BEGIN
+		INT a, b, c,d,e;
+		b := 2;
+                FOR (a:=0; a<100; a:=a+1)
+                       c := 6;
+		       d:=c+8;
+                      		  
+		ENDFOR
+                
+		WRITE (c);
+		
+	END
+END
